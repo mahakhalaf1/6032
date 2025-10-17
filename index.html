@@ -1,141 +1,61 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-
 <head>
-
- <meta charset="UTF-8" />
-
- <title>Lovely Bakery Shop</title>
-
- <link rel="stylesheet" href="style.css" />
-
-</head>
-
-<body>
-
- 
-
- <nav>
-
-   <ul class="navbar">
-
-     <li><a href="#home" class="navlink">Home</a></li>
-
-     <li><a href="#ourmenu" class="navlink">Our Menu </a></li>
-
-     <li><a href="#contact" class="navlink">Contact Us</a></li>
-
-   </ul>
-
- </nav>
-
- 
-
- <section id="home" class="section">
-
-     <img src="logo.png" alt="Logo" id="logo" />
-
-   <h1>Lovely Bakery Shop</h1> <br>
-
-   <p>selection of freshly cupcakes that can be ordered for pick-up or delivery. </p>
-
- </section>
-
- 
-
- <section id="ourmenu" class="menu">
-
- <h2>Our Menu</h2>
-
- <table class="table">
-
-   <tr>
-
-     <th>Image</th>
-
-     <th>Cupcake</th>
-
-     <th>Price</th>
-
-   </tr>
-
-   <tr>
-
-     <td><img src="image1.png" alt="Creamy Chocolate Cupcake" class="image1"></td>
-
-     <td>Creamy Chocolate Cupcake</td>
-
-     <td>1.500 BD</td>
-
-   </tr>
-
-   <tr>
-
-     <td><img src="image2.png" alt="Carrot Cupcake" class="image2"></td>
-
-     <td>Carrot Cupcake</td>
-
-     <td>2 BD</td>
-
-   </tr>
-
- 
-
-   <tr>
-
-     <td><img src="image3.png" alt="Red Velvet Cupcake" class="image3"></td>
-
-     <td>Red Velvet Cupcake</td>
-
-     <td>2 BD</td>
-
-   </tr>
-
- </table>
-
-</section>
-
- 
-
-<section id="contactform" class="section">
-
-   <h2>Contact Us</h2> <br>
-
- 
-
- <form id="contactForm">
-
- <label for="name">Your Name</label><br>
-
- <input type="text" id="name" required /><br><br>
-
- 
-
- <label for="email">Your Email</label><br>
-
- <input type="email" id="email" required /><br><br>
-
- 
-
- <label for="message">Write Your Inquiries</label><br>
-
- <textarea id="message" rows="3" cols="100" required></textarea><br><br>
-
- 
-
- <button type="submit">Submit</button>
-
-</form>
-
- </form>
-
-</section>  
-
- 
-
- <script src="script.js"></script>
-
-</body>
-
+  <meta charset="utf-8"/>
+  <title>Lovely Bakery Shop</title>
+  <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <nav>
+      <ul class="navbar">
+        <li><a href=#Home class=navlink>Home</a></li>
+<li><a href=#contactus class=navlink>contact us</a></li>  
+        <li><a href=#ourmenu class=navlink>our menu</a></li>
+      </ul> 
+    </nav>
+    <section id="Home" class="Home">
+      <img src="logo.png" alt="logo" id="logo"/>
+      <h1>Welcome to Lovely Bakery Shop</h1>
+      <p> selection of freshly cupcakes that can be orderd for pick-up or delivery.</p>
+      <h2> Our Menu</h2>
+      <section id="ourmenu" class="menu">
+        <table class="table">
+          <tr>
+            <th>image</th>
+            <th>cupcake</th>
+            <th>price</th>
+          </tr>
+          <tr>
+         <td><img src="image1.png" alt="creamy" class="image1"></td>
+            <td>creamy chocolate cupcake</td>
+            <td>1.5bd</td>
+          </tr>
+          <tr>
+            <td><img src="image2.png" alt="carrot" class="image2"></td>
+            <td>carrot cupcake</td>
+            <td>2bd</td>
+          </tr>
+          <tr>
+            <td><img src="image3.png" alt="red" class="image3"></td>
+            <td>red velvet cupcake</td>
+            <td>2.5bd</td>
+          </tr>    
+        </table>
+      </section> 
+      
+      <section id="contactus" class="contact us">
+        <h2>contact us</h2><br>
+        <form id="contact us">
+          <label for="name">your name</label><br>
+          <input type="text"id="name" required</input><br><br>
+          <label for="email">your email </label><br>
+          <input type="email"id="email" required</input><br><br>
+          <label for="message">write your inquiries</label><br>
+          <input type="meassage" rows="4" cols="150" required></input><br><br>
+        <button type="submit">submit</button>
+        </form>
+    </section>
+    <footer> <p>&copy; 2025 All rights reserved</p> </footer> 
+    <script src="script.js"></script>           
+  </body>   
 </html>
