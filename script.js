@@ -1,15 +1,8 @@
-document.getElementById("contactform").onsubmit = function () {
-
- alert("Your inquiry has been submitted. ");
-
- return false;
-
+document.getElementById("contactForm").onsubmit = function(event) {
+  event.preventDefault();
+  alert("Your inquiry has been submitted!");
 };
 
- 
-
-document.getElementsByTagName("tr")[1].onclick = function () {
-
- alert("CupCake Sold Out");
-
+document.getElementsByTagName("tr")[1].onclick = function() {
+  alert("Cupcake sold out");
 };
