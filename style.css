@@ -1,0 +1,55 @@
+* {
+ margin: 0;
+ padding: 0;
+box-sizing: border-box;
+font-family: Segoe UI, Arial;
+}
+body {
+ background: white;
+ color: black;
+ padding-top: 65px;
+ text-align: center;
+}
+
+nav {
+ position: fixed;
+ top:0;
+ background: red;
+ width: 100%;
+}
+nav ul {
+justify-content: center;
+list-style:none;
+gap: 20px;
+display: flex;
+}
+.table {
+ margin: 18px auto;
+ border: 4px  gray;
+ border-collapse: collapse;
+ width: 50%;
+}
+.table th {
+ background-color: pink;
+ color: white;
+} 
+.table th,
+.table td {border: 1px solid black; }
+nav a {
+ color: white;
+ font-weight: bold;
+ text-decoration: none;
+}
+#ourmenu {
+ margin-top: 60px;
+}
+
+#contactform {
+ margin-top: 60px;
+}
+ .table img {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+ }
+#logo {width: 30%;
