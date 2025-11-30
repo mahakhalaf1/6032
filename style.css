@@ -1,22 +1,22 @@
-•hover { padding: 15px;
+.hover { padding: 15px;
 background: green; color: white;
 one;
 }
-•hover: hover {
+.hover: hover {
 background: darkgreen; transform: scale (1.1);
 }
-•options { display: none;
+.options { display: none;
 background: grey;
 padding: 4px;
 }
-•dropdown: hover . options { display: block;
+.dropdown: hover . options { display: block;
 }
-• options a { display: block; padding: 5px;
+.options a { display: block; padding: 5px;
 text-decoration: none;
 color: black;
 }
-• zoomimage {
+.zoomimage {
 transition: 0.5s;
 }
-•zoomimage: hover { transform: scale (1.1;
+.zoomimage: hover { transform: scale (1.1;
 }
